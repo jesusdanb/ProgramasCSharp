@@ -1,0 +1,21 @@
+using System;
+
+namespace Practicas
+{
+    class SumaNumerosIngresados
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Ingresa el primer numero: ");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ingresa el segundo numero: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+            int resultado = num1 + num2;
+
+            Console.WriteLine($"La suma de los numeros ingresados es: {resultado}");
+        }
+    }
+}
+
