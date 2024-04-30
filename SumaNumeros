@@ -1,0 +1,16 @@
+using System;
+
+namespace Practicas
+{
+    class Sumador
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 10;
+            int num2 = 20;
+            int resul = num1 + num2;
+
+            Console.WriteLine($"El resultado de la sumas es: {resul} ");
+        }
+    }
+}
