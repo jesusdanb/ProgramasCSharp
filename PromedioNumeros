@@ -1,0 +1,23 @@
+class PromedioNumeros
+{
+    static void Main(string[] args)
+    {
+        // Solicitar el primer número
+        Console.Write("Ingresa el primer número: ");
+        double numero1 = Convert.ToDouble(Console.ReadLine());
+
+        // Solicitar el segundo número
+        Console.Write("Ingresa el segundo número: ");
+        double numero2 = Convert.ToDouble(Console.ReadLine());
+
+        // Solicitar el tercer número
+        Console.Write("Ingresa el tercer número: ");
+        double numero3 = Convert.ToDouble(Console.ReadLine());
+
+        // Calcular el promedio
+        double promedio = (numero1 + numero2 + numero3) / 3;
+
+        // Mostrar el promedio
+        Console.WriteLine("El promedio de los tres números es: " + promedio);
+    }
+}
